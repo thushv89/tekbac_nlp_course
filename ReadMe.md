@@ -3,7 +3,7 @@
 * RAM: Recommended 8GB
 * Disk space: 5GB-10GB
 * Python: 3.5
-* (GPU) Cuda Toolkit: 10.0
+* (GPU) Cuda Toolkit: 10.0 (Make sure you have all the [Software Requirements](https://www.tensorflow.org/install/gpu) for TensorFlow)
 
 ## Creating the `conda` Environment for the TEKBAC Workshop
 
@@ -19,6 +19,14 @@
 ## Activating the `conda` Environment`
 1. Activate the newly created environment with `activate tekbac.nlp`
 2. If successfully activated, your prompt in the command line should show `(tekbac.nlp) C:\Users\X\Documents`, instead of showing the directory you are in (e.g. `C:\Users\X\Documents`)
+
+## Validating Jupyter notebook works
+1. Go to your code directory and activate the `conda` environment in the terminal.
+2. Next, type in `jupyter notebook`
+3. Open the `test_setup.ipynb`
+4. You should be able to run all the cells in the notebook without any errors. 
+
+**Note**: If you're having trouble running this, post an issue [here](https://github.com/thushv89/tekbac_nlp_course/issues). Your issue needs to contain, all the software versions of things listed above, what you tried so far (step by step), the error message you're getting, a screenshot of the error.
 
 ## Validating the installed packages
 1. After activating the `conda` environment, type in `python`
